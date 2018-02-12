@@ -1,0 +1,28 @@
+#container{
+    width: 1200px;
+    height: 800px;
+    margin: 50px auto;
+    background: rgba(250, 150, 50, 0.92);
+}
+
+ul{
+    width:170px;
+    margin: auto;
+}
+
+ul>li>a {
+    color: burlywood;
+    text-shadow: 4px 4px 5px rgba(150, 150, 150, 0.92);
+}
+a:link{
+    color:red;
+}
+a:visited{
+    color:black;
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color:blue;
+}

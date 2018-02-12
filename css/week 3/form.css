@@ -1,0 +1,36 @@
+
+
+
+h1{
+ margin-top: 25px;
+ width: 300px;
+ text-align: center;
+ 
+}
+h1>span{
+    color: rgb(228, 140, 8);
+}
+
+div{
+    margin: 50px auto;
+    background: rgb(240, 237, 237);
+    max-width: 300px;
+    box-shadow:         5px -4px 6px 0px rgba(129, 163, 32, 0.95);
+}
+.submit{
+    width: 100%;
+    background: red;
+    color: antiquewhite;
+    margin: auto;
+}
+div{
+    padding: 50px;
+}
+input {
+    width: 100%;
+}
+
+label {
+    box-shadow: 5px -4px 6px 0px rgba(129, 163, 32, 0.95);
+}
+

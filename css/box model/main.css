@@ -1,0 +1,26 @@
+.first{
+    background-color:yellow;
+    width: 400px;
+    height:500px;
+    overflow: scroll;
+}
+.second{
+    background-color: rgba(255,0,0,0.5);
+    width: 600px;
+    height:300px;
+    overflow: scroll;
+}
+.first2{
+    background: yellow;
+    max-width: 400px;
+    border-width: 5px 15px 25px;
+    border-style: solid;
+    border-color: blue;
+    padding: 20px;
+    
+    
+}
+.second2{
+    background: purple;
+    min-height: 200px;
+}
