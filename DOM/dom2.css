@@ -1,0 +1,10 @@
+img {
+    box-sizing: border-box;
+    width: 33%;
+    margin-bottom: 100px;
+    height: 1200px;
+}
+
+.redBorder{
+    border: 50px solid red;
+}
