@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let lista = [];
+        for (let i = 1; i <= 50; i++) {
+            const myPromise = new Promise(function (resolve, reject) {
+                setTimeout(function (myPromise) {
+                    console.log('from ' + i);
+                    resolve(i)
+                }, i * 100)
+
+            })
+
+            lista.push(myPromise);
+        }
+
+        Promise.all(lista)
+            .then(function(allResolvedValues) {
+                console.log('all done');
+
+                console.log('arr: ', allResolvedValues);
+            })
+    </script>
+
+</body>
+
+</html>
